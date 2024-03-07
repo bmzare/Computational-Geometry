@@ -156,7 +156,7 @@ int main() {
     cv::polylines(image, cvVertices, true, cv::Scalar(0, 0, 256), 2, cv::LINE_AA);
 
 
-    cv::imshow("Convex Hull, Graham's scan algorithm", image);
+    cv::imshow("Convex Hull, Gift-Wrapping (Jarvis March) algorithm", image);
     cv::waitKey(0);
     return 0;
 }
