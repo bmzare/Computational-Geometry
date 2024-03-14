@@ -3,7 +3,7 @@
 
 # Sweep Line (Bentley-Ottmann) Algorithm
 
-Use a sweep line approach, in which a vertical line L moves from left to right (or, e.g., from left to right) across the plane, intersecting the input line segments in sequence as it moves.
+Use a sweep line approach, in which a vertical line L moves from left to right (or, e.g., from top to bottom) across the plane, intersecting the input line segments in sequence as it moves.
 
 Examples (8 and 100 points):
 
