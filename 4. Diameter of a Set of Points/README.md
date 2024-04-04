@@ -7,9 +7,9 @@ Algorithm steps:
 1. Discover the convex hull of points in the primal plane.
 2. Determine the upper and lower convex envelopes in the dual plane.
 3. Identify antipodal pairs.
-4. Compute the distance between antipodal pairs and return the maximum distance, with a
+4. Calculate the distance between antipodal pairs and return the maximum distance along with their respective endpoints.
 
-complexity order of O(n log n)
+* Complexity order: O(n.log(n))
 
 Examples (20 and 200 points):
 
